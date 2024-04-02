@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_sections_wordsw_images",
+  "info": {
+    "displayName": "WordswImage"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Words with images"
+    },
+    "vocab_banks": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::vocab-bank.vocab-bank"
+    },
+    "directions": {
+      "type": "component",
+      "repeatable": false,
+      "component": "directions.directions"
+    }
+  }
+}

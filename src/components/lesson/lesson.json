@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_lesson_lessons",
+  "info": {
+    "displayName": "lesson",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "lesson": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::lesson.lesson"
+    },
+    "order": {
+      "type": "integer",
+      "max": 99
+    }
+  }
+}

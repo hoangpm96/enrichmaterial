@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_vocab_more_vocabs",
+  "info": {
+    "displayName": "more vocab",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "content": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "rich"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    }
+  }
+}

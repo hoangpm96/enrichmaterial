@@ -1,0 +1,38 @@
+{
+  "name": "enrichmaterial",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "@ckeditor/strapi-plugin-ckeditor": "^0.0.11",
+    "@sklinet/strapi-plugin-tinymce": "^1.0.7",
+    "@strapi/plugin-cloud": "4.21.1",
+    "@strapi/plugin-color-picker": "^4.21.1",
+    "@strapi/plugin-i18n": "^4.15.0",
+    "@strapi/plugin-users-permissions": "^4.15.0",
+    "@strapi/strapi": "4.21.1",
+    "better-sqlite3": "8.6.0",
+    "custom-slug": "^2.1.1",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "5.3.4",
+    "styled-components": "5.3.3"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "e162d6d6-5f0c-4b3f-a033-68afdb2a252e"
+  },
+  "engines": {
+    "node": ">=18.0.0 <=20.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}

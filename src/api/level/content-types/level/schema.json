@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "levels",
+  "info": {
+    "singularName": "level",
+    "pluralName": "levels",
+    "displayName": "Level"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "level": {
+      "type": "string",
+      "unique": true,
+      "required": true,
+      "maxLength": 2,
+      "regex": "^(0[1-9]|1[0-2])$"
+    },
+    "CEFR": {
+      "type": "string",
+      "unique": false,
+      "required": true
+    },
+    "shortdescription": {
+      "type": "string",
+      "unique": false,
+      "required": true
+    }
+  }
+}

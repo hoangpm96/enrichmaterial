@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_listchat_chats",
+  "info": {
+    "displayName": "chat"
+  },
+  "options": {},
+  "attributes": {
+    "chat": {
+      "type": "string"
+    }
+  }
+}

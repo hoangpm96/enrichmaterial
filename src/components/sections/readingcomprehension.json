@@ -1,0 +1,50 @@
+{
+  "collectionName": "components_reading_readingcomprehensions",
+  "info": {
+    "displayName": "reading_comprehension",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "directions": {
+      "type": "component",
+      "repeatable": true,
+      "component": "directions.directions"
+    },
+    "article_title": {
+      "type": "string"
+    },
+    "article": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "rich"
+      },
+      "customField": "plugin::ckeditor.CKEditor",
+      "required": true
+    },
+    "understanding_title": {
+      "type": "string",
+      "default": "Check your understanding"
+    },
+    "questions": {
+      "type": "component",
+      "repeatable": true,
+      "component": "listqs.question"
+    },
+    "morevocab": {
+      "type": "component",
+      "repeatable": false,
+      "component": "vocab.more-vocab"
+    },
+    "answers": {
+      "type": "component",
+      "repeatable": true,
+      "component": "listqs.question"
+    }
+  }
+}

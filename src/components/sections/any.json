@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_sections_anies",
+  "info": {
+    "displayName": "Any",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "directions": {
+      "type": "component",
+      "repeatable": false,
+      "component": "directions.directions"
+    },
+    "data": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "rich"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    }
+  }
+}

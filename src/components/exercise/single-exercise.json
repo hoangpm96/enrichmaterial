@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_exercise_single_exercises",
+  "info": {
+    "displayName": "single_exercise"
+  },
+  "options": {},
+  "attributes": {
+    "order": {
+      "type": "integer"
+    },
+    "imageurl": {
+      "type": "string"
+    },
+    "question": {
+      "type": "text"
+    },
+    "answer": {
+      "type": "text"
+    }
+  }
+}

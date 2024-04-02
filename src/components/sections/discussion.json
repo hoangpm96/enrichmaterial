@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_sections_discussions",
+  "info": {
+    "displayName": "discussion"
+  },
+  "options": {},
+  "attributes": {
+    "directions": {
+      "type": "component",
+      "repeatable": false,
+      "component": "directions.directions"
+    },
+    "questions": {
+      "type": "component",
+      "repeatable": true,
+      "component": "listqs.question"
+    }
+  }
+}

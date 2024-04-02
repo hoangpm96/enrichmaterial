@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_sections_homework",
+  "info": {
+    "displayName": "Homework"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "homework": {
+      "type": "component",
+      "repeatable": true,
+      "component": "listqs.question"
+    }
+  }
+}

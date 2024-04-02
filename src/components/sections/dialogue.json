@@ -1,0 +1,56 @@
+{
+  "collectionName": "components_sections_dialogues",
+  "info": {
+    "displayName": "dialogue",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "directions": {
+      "type": "component",
+      "repeatable": false,
+      "component": "directions.directions"
+    },
+    "dialogue_intro": {
+      "type": "text"
+    },
+    "person1": {
+      "displayName": "person",
+      "type": "component",
+      "repeatable": false,
+      "component": "person.person"
+    },
+    "person2": {
+      "type": "component",
+      "repeatable": false,
+      "component": "person.person"
+    },
+    "chat": {
+      "type": "component",
+      "repeatable": true,
+      "component": "listchat.chat"
+    },
+    "moreVocab": {
+      "type": "component",
+      "repeatable": false,
+      "component": "vocab.more-vocab"
+    },
+    "understanding_title": {
+      "type": "string"
+    },
+    "questions": {
+      "type": "component",
+      "repeatable": true,
+      "component": "listqs.question"
+    },
+    "answer": {
+      "type": "component",
+      "repeatable": true,
+      "component": "listqs.question"
+    }
+  }
+}

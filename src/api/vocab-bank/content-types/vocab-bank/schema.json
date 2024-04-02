@@ -1,0 +1,46 @@
+{
+  "kind": "collectionType",
+  "collectionName": "vocab_banks",
+  "info": {
+    "singularName": "vocab-bank",
+    "pluralName": "vocab-banks",
+    "displayName": "Vocab-Bank",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Vocab": {
+      "type": "string",
+      "required": true
+    },
+    "Meaning": {
+      "type": "text",
+      "required": true
+    },
+    "Example1": {
+      "type": "text",
+      "required": true
+    },
+    "Example2": {
+      "type": "text",
+      "required": false
+    },
+    "vocab_type": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::vocab-type.vocab-type"
+    },
+    "IPA": {
+      "type": "string"
+    },
+    "imageurl": {
+      "type": "string"
+    },
+    "soundurl": {
+      "type": "text"
+    }
+  }
+}

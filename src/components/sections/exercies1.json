@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_sections_exercies1s",
+  "info": {
+    "displayName": "Exercies1",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Exercies"
+    },
+    "directions": {
+      "type": "component",
+      "repeatable": false,
+      "component": "directions.directions"
+    },
+    "exercise": {
+      "type": "component",
+      "repeatable": true,
+      "component": "exercise.single-exercise"
+    },
+    "answer": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "rich"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    }
+  }
+}

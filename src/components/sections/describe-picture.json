@@ -1,0 +1,45 @@
+{
+  "collectionName": "components_sections_describe_pictures",
+  "info": {
+    "displayName": "Describe_Picture",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "Describe the picture"
+    },
+    "directions": {
+      "type": "component",
+      "repeatable": false,
+      "component": "directions.directions"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "express": {
+      "type": "string",
+      "default": "Express yourself"
+    },
+    "questions": {
+      "type": "component",
+      "repeatable": true,
+      "component": "listqs.question"
+    },
+    "sample": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "rich"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    }
+  }
+}

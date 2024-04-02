@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_sections_exercise2s",
+  "info": {
+    "displayName": "Exercise2",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Exercise"
+    },
+    "directions": {
+      "type": "component",
+      "repeatable": false,
+      "component": "directions.directions"
+    },
+    "input": {
+      "type": "component",
+      "repeatable": true,
+      "component": "listqs.question"
+    },
+    "output": {
+      "type": "component",
+      "repeatable": true,
+      "component": "listqs.question"
+    },
+    "answers": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "rich"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    }
+  }
+}

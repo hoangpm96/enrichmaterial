@@ -1,0 +1,49 @@
+{
+  "collectionName": "components_sections_listenings",
+  "info": {
+    "displayName": "Listening",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "directions": {
+      "type": "component",
+      "repeatable": false,
+      "component": "directions.directions"
+    },
+    "exercise": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "rich"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "answers": {
+      "type": "component",
+      "repeatable": true,
+      "component": "listqs.question"
+    },
+    "questions": {
+      "type": "component",
+      "repeatable": true,
+      "component": "listqs.question"
+    },
+    "moreVocab": {
+      "type": "component",
+      "repeatable": true,
+      "component": "vocab.more-vocab"
+    },
+    "audio": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "audios"
+      ]
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_sections_watchvideos",
+  "info": {
+    "displayName": "Watchvideo"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Watch video with teacher",
+      "required": true
+    },
+    "videourl": {
+      "type": "string"
+    },
+    "videotitle": {
+      "type": "string"
+    },
+    "express": {
+      "type": "string",
+      "default": "Express yourself"
+    },
+    "questions": {
+      "type": "component",
+      "repeatable": true,
+      "component": "listqs.question"
+    },
+    "moreVocab": {
+      "type": "component",
+      "repeatable": false,
+      "component": "vocab.more-vocab"
+    }
+  }
+}

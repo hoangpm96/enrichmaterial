@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_directions_notes",
+  "info": {
+    "displayName": "note"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Remember"
+    },
+    "note": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ages",
+  "info": {
+    "singularName": "age",
+    "pluralName": "ages",
+    "displayName": "Age"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "age": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_warmup_video_warmup_videos",
+  "info": {
+    "displayName": "warmup-video",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "directions": {
+      "type": "component",
+      "repeatable": false,
+      "component": "directions.directions"
+    },
+    "videourl": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "transcript": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "rich"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "videotitle": {
+      "type": "string"
+    },
+    "question": {
+      "type": "component",
+      "repeatable": true,
+      "component": "listqs.question"
+    }
+  }
+}

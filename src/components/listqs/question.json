@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_questions_questions",
+  "info": {
+    "displayName": "qs",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "prefix": {
+      "type": "string"
+    },
+    "value": {
+      "type": "text"
+    }
+  }
+}

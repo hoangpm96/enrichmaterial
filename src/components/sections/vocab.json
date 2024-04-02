@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_vocab_vocabs",
+  "info": {
+    "displayName": "Vocab",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "directions": {
+      "type": "component",
+      "repeatable": false,
+      "component": "directions.directions"
+    },
+    "vocab_banks": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::vocab-bank.vocab-bank"
+    },
+    "moreVocab": {
+      "displayName": "more vocab",
+      "type": "component",
+      "repeatable": false,
+      "component": "vocab.more-vocab"
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "vocab_types",
+  "info": {
+    "singularName": "vocab-type",
+    "pluralName": "vocab-types",
+    "displayName": "vocab-type",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "type": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    }
+  }
+}
